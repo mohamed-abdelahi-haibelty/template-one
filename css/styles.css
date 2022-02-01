@@ -68,6 +68,7 @@ header .links .icon span:first-child {
 header .links .icon span:nth-child(2) {
   width: 60%;
   height: 2px;
+  transition: 0.3s;
 }
 header .links .icon span:last-child {
   width: 100%;
