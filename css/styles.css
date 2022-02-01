@@ -1,0 +1,14 @@
+/* start variable */
+
+/* end variables */
+
+/* start global rules */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+/* end global rules */
