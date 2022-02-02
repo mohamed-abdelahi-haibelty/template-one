@@ -82,7 +82,17 @@ header .container .links ul {
   margin: 0;
   text-decoration: none;
   list-style: none;
+  background-color: #f6f6f6;
+  min-width: 200px;
+  position: absolute;
+  right: 5px;
+  top: calc(100% + 15px);
+}
+header .container .links ul::before {
+  content: "";
+  border-width: 10px;
 }
 header .container .links ul li a {
   text-decoration: none;
+  color: #333;
 }
