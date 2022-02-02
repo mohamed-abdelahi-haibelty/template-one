@@ -100,4 +100,6 @@ header .container .links ul::before {
 header .container .links ul li a {
   text-decoration: none;
   color: #333;
+  display: block;
+  margin: 15px;
 }
