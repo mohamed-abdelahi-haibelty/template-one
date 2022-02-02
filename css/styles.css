@@ -87,6 +87,8 @@ header .container .links ul {
   position: absolute;
   right: 5px;
   top: calc(100% + 15px);
+  display: none;
+  transition: 0.3s;
 }
 header .container .links:hover ul {
   display: block;
