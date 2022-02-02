@@ -77,3 +77,12 @@ header .links .icon span:last-child {
   width: 100%;
   height: 2px;
 }
+header .container .links ul {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+header .container .links ul li a {
+  text-decoration: none;
+}
