@@ -103,3 +103,6 @@ header .container .links ul li a {
   display: block;
   margin: 15px;
 }
+header .container .links ul li:not(:last-child) a {
+  border-bottom: solid 2px #333;
+}
