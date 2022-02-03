@@ -1,5 +1,7 @@
 /* start variable */
-
+:root {
+  --main-color: #10cab7;
+}
 /* end variables */
 
 /* start global rules */
@@ -130,4 +132,7 @@ header .container .links ul li:not(:last-child) a {
 }
 .landing .intro-text h1 {
   margin: 0;
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 50px;
 }
