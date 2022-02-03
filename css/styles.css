@@ -119,8 +119,14 @@ header .container .links ul li:not(:last-child) a {
   background: url(../images/686924.jpg);
   background-size: cover;
   height: calc(100vh - 64px);
+  position: relative;
 }
 .landing .intro-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 360px;
 }
 .landing .intro-text h1 {
   margin: 0;
