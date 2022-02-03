@@ -91,6 +91,7 @@ header .container .links ul {
   top: calc(100% + 15px);
   display: none;
   transition: 0.3s;
+  z-index: 1;
 }
 header .container .links:hover ul {
   display: block;
