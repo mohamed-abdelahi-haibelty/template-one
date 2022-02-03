@@ -142,3 +142,7 @@ header .container .links ul li:not(:last-child) a {
   font-size: 19px;
   line-height: 1.8;
 }
+.features {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
