@@ -146,3 +146,8 @@ header .container .links ul li:not(:last-child) a {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.features .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
