@@ -120,3 +120,8 @@ header .container .links ul li:not(:last-child) a {
   background-size: cover;
   height: calc(100vh - 64px);
 }
+.landing .intro-text {
+}
+.landing .intro-text h1 {
+  margin: 0;
+}
