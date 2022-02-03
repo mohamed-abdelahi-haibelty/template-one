@@ -115,3 +115,8 @@ header .container .links ul li a:hover {
 header .container .links ul li:not(:last-child) a {
   border-bottom: solid 2px #333;
 }
+.landing {
+  background: url(../images/686924.jpg);
+  background-size: cover;
+  height: calc(100vh - 64px);
+}
