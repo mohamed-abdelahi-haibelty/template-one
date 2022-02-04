@@ -24,11 +24,12 @@ body {
   color: #ebeced;
   font-size: 100px;
   text-align: center;
+  margin: 0;
 }
-.special-headings + p {
+/* .special-headings + p {
   color: #797979;
   text-align: center;
-}
+} */
 /* end components */
 
 @media (min-width: 768px) {
