@@ -26,10 +26,11 @@ body {
   text-align: center;
   margin: 0;
 }
-/* .special-headings + p {
+.special-headings + p {
   color: #797979;
   text-align: center;
-} */
+  margin: -30px 0 0 0;
+}
 /* end components */
 
 @media (min-width: 768px) {
