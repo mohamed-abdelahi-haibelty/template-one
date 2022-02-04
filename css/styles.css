@@ -25,6 +25,10 @@ body {
   font-size: 100px;
   text-align: center;
 }
+.special-headings + p {
+  color: #797979;
+  text-align: center;
+}
 /* end components */
 
 @media (min-width: 768px) {
