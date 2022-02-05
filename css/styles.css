@@ -214,3 +214,8 @@ header .container .links ul li:not(:last-child) a {
     display: none;
   }
 }
+i {
+  flex-basis: 60px;
+  font-size: 1.6em;
+  color: var(--main-color);
+}
