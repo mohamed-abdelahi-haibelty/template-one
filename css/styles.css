@@ -202,3 +202,6 @@ header .container .links ul li:not(:last-child) a {
 .image img {
   width: 300px;
 }
+.service {
+  display: flex;
+}
