@@ -1,6 +1,7 @@
 /* start variable */
 :root {
   --main-color: #10cab7;
+  --secondary-color: #2c4755;
 }
 /* end variables */
 
@@ -231,4 +232,17 @@ header .container .links ul li:not(:last-child) a {
   font-weight: 300;
   color: #444;
   line-height: 1.6;
+}
+.image {
+  position: relative;
+}
+.image::before {
+  content: "";
+  width: 80px;
+  background-color: var(--secondary-color);
+  position: absolute;
+  height: calc(100% + 100px);
+  right: 0;
+  top: -50px;
+  z-index: -1;
 }
