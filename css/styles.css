@@ -205,3 +205,12 @@ header .container .links ul li:not(:last-child) a {
 .service {
   display: flex;
 }
+@media (max-width: 767px) {
+  .service {
+    flex-direction: column;
+    text-align: center;
+  }
+  .image img {
+    display: none;
+  }
+}
