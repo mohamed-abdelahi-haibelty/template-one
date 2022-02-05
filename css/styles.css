@@ -219,3 +219,6 @@ i {
   font-size: 1.6em;
   color: var(--main-color);
 }
+.text {
+  flex: 1;
+}
