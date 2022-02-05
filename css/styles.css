@@ -214,11 +214,15 @@ header .container .links ul li:not(:last-child) a {
     display: none;
   }
 }
-i {
+.service i {
   flex-basis: 60px;
   font-size: 1.6em;
   color: var(--main-color);
 }
-.text {
+.service.text {
   flex: 1;
+}
+.service h3 {
+  font-weight: 800;
+  margin: 0 0 20px 20px;
 }
