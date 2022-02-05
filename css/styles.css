@@ -25,6 +25,7 @@ body {
   font-size: 100px;
   text-align: center;
   margin: 0;
+  letter-spacing: -3px;
 }
 .special-headings + p {
   color: #797979;
@@ -191,13 +192,4 @@ header .container .links ul li:not(:last-child) a {
   line-height: 1.7;
   color: #777;
   max-width: 100%;
-}
-.container .serv {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  padding: 20px;
-  margin: 20px;
-}
-.image img {
-  width: 200px;
 }
