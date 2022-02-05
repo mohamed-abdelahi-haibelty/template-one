@@ -199,3 +199,6 @@ header .container .links ul li:not(:last-child) a {
   gap: 30px;
   margin-top: 100px;
 }
+.image img {
+  width: 300px;
+}
