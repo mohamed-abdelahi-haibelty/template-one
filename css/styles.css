@@ -195,6 +195,8 @@ header .container .links ul li:not(:last-child) a {
 .container .serv {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding: 20px;
+  margin: 20px;
 }
 .image img {
   width: 200px;
