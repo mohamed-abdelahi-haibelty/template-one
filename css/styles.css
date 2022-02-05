@@ -192,3 +192,10 @@ header .container .links ul li:not(:last-child) a {
   color: #777;
   max-width: 100%;
 }
+.container .serv {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.image img {
+  width: 200px;
+}
