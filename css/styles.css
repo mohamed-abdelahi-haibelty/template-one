@@ -207,13 +207,15 @@ header .container .links ul li:not(:last-child) a {
 .service {
   display: flex;
   margin-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 @media (max-width: 767px) {
   .service {
     flex-direction: column;
     text-align: center;
   }
-  .service.image {
+  .col .image {
     display: none;
   }
 }
@@ -234,10 +236,10 @@ header .container .links ul li:not(:last-child) a {
   color: #444;
   line-height: 1.6;
 }
-.service.image {
+.col .image {
   position: relative;
 }
-.service.image::before {
+.col .image::before {
   content: "";
   width: 80px;
   background-color: var(--secondary-color);
@@ -250,6 +252,7 @@ header .container .links ul li:not(:last-child) a {
 .protofilio {
   background-color: #f6f6f6;
   padding-bottom: 80px;
+  padding-top: 60px;
 }
 .protofilio .container img {
   width: 300px;
@@ -288,4 +291,8 @@ header .container .links ul li:not(:last-child) a {
   left: 50%;
   transform: translate(-50%, -50%);
   margin: 20px;
+}
+.about {
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
