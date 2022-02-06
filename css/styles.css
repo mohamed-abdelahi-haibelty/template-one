@@ -271,3 +271,8 @@ header .container .links ul li:not(:last-child) a {
   flex-basis: 30px;
   padding-top: 10px;
 }
+.projects .text p {
+  color: #444;
+  line-height: 1.8;
+  padding-left: 20px;
+}
