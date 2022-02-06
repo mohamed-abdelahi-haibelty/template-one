@@ -213,7 +213,7 @@ header .container .links ul li:not(:last-child) a {
     flex-direction: column;
     text-align: center;
   }
-  .image img {
+  .image {
     display: none;
   }
 }
@@ -250,18 +250,12 @@ header .container .links ul li:not(:last-child) a {
 .protofilio {
   background-color: #f6f6f6;
 }
-.protofilio .container h2 {
-  font-size: 100px;
-  font-weight: 800;
-  text-align: center;
-  letter-spacing: -3px;
-  margin: 0;
-  color: #ebeced;
+.protofilio .container img {
+  width: 300px;
 }
-.protofilio .container p {
-  font-size: 17px;
-  line-height: 1.6;
-  text-align: center;
-  margin: -35px 0 0 0;
-  color: #777;
+.protofilio .container .projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+  margin-top: 100px;
 }
