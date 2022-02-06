@@ -249,6 +249,7 @@ header .container .links ul li:not(:last-child) a {
 }
 .protofilio {
   background-color: #f6f6f6;
+  padding-bottom: 80px;
 }
 .protofilio .container img {
   width: 300px;
@@ -274,5 +275,17 @@ header .container .links ul li:not(:last-child) a {
 .projects .text p {
   color: #444;
   line-height: 1.8;
+  /* font-size: 17px; */
   padding-left: 20px;
+}
+.projects {
+  position: relative;
+}
+.show-btn {
+  border: solid 1px #ccc;
+  border-radius: 0 13px 0 13px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 20px;
 }
