@@ -2,6 +2,7 @@
 :root {
   --main-color: #10cab7;
   --secondary-color: #2c4755;
+  --thirdly-color: #ebeced;
 }
 /* end variables */
 
@@ -245,4 +246,15 @@ header .container .links ul li:not(:last-child) a {
   right: 0;
   top: -50px;
   z-index: -1;
+}
+.protofilio {
+  background-color: #f6f6f6;
+}
+.protofilio .container h2 {
+  font-size: 100px;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: -3px;
+  margin: 0;
+  color: #ebeced;
 }
