@@ -252,10 +252,22 @@ header .container .links ul li:not(:last-child) a {
 }
 .protofilio .container img {
   width: 300px;
+  height: 250.442px;
 }
 .protofilio .container .projects {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 40px;
   margin-top: 100px;
+  padding: 0 40px 0 45px;
+}
+.protofilio .container .projects .text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.projects .text h3 {
+  font-weight: 800;
+  flex-basis: 30px;
+  padding-top: 10px;
 }
