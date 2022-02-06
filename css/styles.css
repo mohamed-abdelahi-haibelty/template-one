@@ -213,7 +213,7 @@ header .container .links ul li:not(:last-child) a {
     flex-direction: column;
     text-align: center;
   }
-  .image {
+  .service.image {
     display: none;
   }
 }
@@ -234,10 +234,10 @@ header .container .links ul li:not(:last-child) a {
   color: #444;
   line-height: 1.6;
 }
-.image {
+.service.image {
   position: relative;
 }
-.image::before {
+.service.image::before {
   content: "";
   width: 80px;
   background-color: var(--secondary-color);
