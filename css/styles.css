@@ -389,5 +389,9 @@ header .container .links ul li:not(:last-child) a {
   color: var(--main-color);
   font-weight: 800;
 }
+.info-text .icon {
+  display: flex;
+  align-items: center;
+}
 
 /* End contact */
