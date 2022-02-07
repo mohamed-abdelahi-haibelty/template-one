@@ -324,6 +324,12 @@ header .container .links ul li:not(:last-child) a {
 }
 .part1 .image::before {
   content: "";
+  width: 100px;
+  position: absolute;
+  height: calc(100% + 80px);
+  background-color: var(--thirdly-color);
+  top: -40px;
+  z-index: -1;
 }
 
 .part1 .image::after {
