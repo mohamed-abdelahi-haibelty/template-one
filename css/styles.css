@@ -414,6 +414,7 @@ header .container .links ul li:not(:last-child) a {
   color: var(--secondary-color);
   font-size: 20px;
 }
+/* End contact */
 footer {
   text-align: center;
   font-size: 18px;
@@ -421,5 +422,7 @@ footer {
   padding: 30px 10px;
   color: #fff;
 }
-
-/* End contact */
+footer span {
+  color: var(--main-color);
+  font-weight: bold;
+}
