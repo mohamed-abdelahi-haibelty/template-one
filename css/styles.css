@@ -302,7 +302,7 @@ header .container .links ul li:not(:last-child) a {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 60px;
 }
-.parts .info :first-of-type p {
+.parts .info p:first-of-type {
   width: 500px;
   font-weight: 800;
   line-height: 2;
@@ -313,9 +313,16 @@ header .container .links ul li:not(:last-child) a {
   margin: 0;
   border-color: var(--main-color);
 }
-.parts .info :last-of-type p {
+.parts .info p:last-of-type {
   width: 612px;
   padding-left: 100px;
   color: #777;
   line-height: 1.7;
+}
+.pat1 .image {
+  position: relative;
+}
+.pat1 .image::before {
+}
+.pat1 .image::after {
 }
