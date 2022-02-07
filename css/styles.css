@@ -302,3 +302,13 @@ header .container .links ul li:not(:last-child) a {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 60px;
 }
+.parts .info :first-of-type p {
+  width: 500px;
+  font-weight: 800;
+  line-height: 2;
+  color: var(--secondary-color);
+}
+.parts .info hr {
+}
+.parts .info :last-of-type p {
+}
