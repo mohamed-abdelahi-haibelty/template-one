@@ -322,6 +322,14 @@ header .container .links ul li:not(:last-child) a {
   color: #777;
   line-height: 1.7;
 }
+@media (max-width: 767px) {
+  .part2 .info p {
+    max-width: 100%;
+  }
+  .part2 {
+    margin-left: 30px;
+  }
+}
 .part1 .image {
   position: relative;
 }
