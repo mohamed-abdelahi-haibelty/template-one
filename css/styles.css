@@ -309,6 +309,9 @@ header .container .links ul li:not(:last-child) a {
   color: var(--secondary-color);
 }
 .parts .info hr {
+  width: 50%;
+  margin: 0;
+  border-color: var(--main-color);
 }
 .parts .info :last-of-type p {
 }
