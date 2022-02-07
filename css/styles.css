@@ -368,5 +368,14 @@ header .container .links ul li:not(:last-child) a {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
 }
+.conatct .info-text {
+  padding: 100px;
+  text-align: center;
+  background-color: yellowgreen;
+}
+.info-text {
+  padding-top: 70px;
+  padding-left: 80px;
+}
 
 /* End contact */
