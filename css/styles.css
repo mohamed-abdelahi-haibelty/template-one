@@ -302,6 +302,9 @@ header .container .links ul li:not(:last-child) a {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 60px;
 }
+.part2 {
+  margin-left: 90px;
+}
 .parts .info p:first-of-type {
   width: 500px;
   font-weight: 800;
