@@ -319,10 +319,13 @@ header .container .links ul li:not(:last-child) a {
   color: #777;
   line-height: 1.7;
 }
-.pat1 .image {
+.part1 .image {
   position: relative;
 }
-.pat1 .image::before {
+.part1 .image::before {
+  content: "";
 }
-.pat1 .image::after {
+
+.part1 .image::after {
+  content: "";
 }
