@@ -314,4 +314,8 @@ header .container .links ul li:not(:last-child) a {
   border-color: var(--main-color);
 }
 .parts .info :last-of-type p {
+  width: 612px;
+  padding-left: 100px;
+  color: #777;
+  line-height: 1.7;
 }
