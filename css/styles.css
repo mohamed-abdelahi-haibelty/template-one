@@ -371,7 +371,6 @@ header .container .links ul li:not(:last-child) a {
 .conatct .info-text {
   padding: 100px;
   text-align: center;
-  background-color: yellowgreen;
 }
 .info-text {
   padding-top: 70px;
@@ -398,6 +397,8 @@ header .container .links ul li:not(:last-child) a {
   color: #777;
 }
 .info-text .icon a {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .info-text .icon a i {
 }
